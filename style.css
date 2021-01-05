@@ -1,27 +1,21 @@
 /* For All Elements */
 * {
   font-family: "Merriweather", serif;
-  /* margin: 0;
-  padding: 0; */
 }
 
-/* section {
-  border: 2px solid red;
-} */
+section {
+  /* border: 2px solid red; */
+  margin: 1%;
+  padding-top: 2%;
+}
 
 /* First Section */
 #first-section {
-  height: 500px;
+  height: 550px;
   background-image: url("images/top-banner.png");
-  margin: 5px;
   background-repeat: no-repeat;
 }
-.half-width {
-  float: left;
-  width: 48%;
-  margin: 5px;
-  padding: 2px;
-}
+
 .orange-text {
   color: orange;
 }
@@ -37,8 +31,7 @@
 
 /* Second Section */
 #second-section {
-  margin: 5px;
-  height: 500px;
+  height: 450px;
   background-image: url("images/dream-bg.png");
   background-repeat: no-repeat;
   background-position: right;
@@ -52,8 +45,7 @@
 
 /* Third Section */
 #third-section {
-  margin: 5px;
-  height: 500px;
+  height: 550px;
   background-image: url("images/exp-bg.png");
   background-repeat: no-repeat;
   background-position: left;
@@ -72,7 +64,7 @@
 .half-box {
   float: left;
   width: 37%;
-  margin-left: 100px;
+  margin-left: 9%;
   padding: 6px;
   box-shadow: 10px 10px 40px gray;
   height: 330px;
@@ -90,30 +82,34 @@
 }
 
 /* Elements */
+.half-width {
+  float: left;
+  width: 40%;
+  margin-left: 3%;
+  padding-left: 4%;
+}
 .half-width img {
   width: 75%;
 }
+
 .justified-text {
   text-align: justify;
 }
 p {
   color: dimgray;
-  font-size: 15px;
 }
 .btn {
   padding: 15px;
-  margin: 10px 0px;
   border-radius: 10px;
   text-decoration: none;
-  color: greenyellow;
-  background-color: darkblue;
+  color: white;
+  background-image: linear-gradient(45deg, black, green);
   font-size: 15px;
 }
 .btn:hover {
   cursor: pointer;
   text-decoration: underline;
-  color: blue;
-  background-color: rgb(153, 255, 0);
+  background-image: linear-gradient(45deg, green, red);
 }
 
 /* Footer */
