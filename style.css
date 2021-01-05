@@ -1,0 +1,125 @@
+/* For All Elements */
+* {
+  font-family: "Merriweather", serif;
+  /* margin: 0;
+  padding: 0; */
+}
+
+/* section {
+  border: 2px solid red;
+} */
+
+/* First Section */
+#first-section {
+  height: 500px;
+  background-image: url("images/top-banner.png");
+  margin: 5px;
+  background-repeat: no-repeat;
+}
+.half-width {
+  float: left;
+  width: 48%;
+  margin: 5px;
+  padding: 2px;
+}
+.orange-text {
+  color: orange;
+}
+.purple-text {
+  color: purple;
+}
+#first-section h2 {
+  font-size: 50px;
+}
+#first-section h3 {
+  font-size: 30px;
+}
+
+/* Second Section */
+#second-section {
+  margin: 5px;
+  height: 500px;
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+#second-section h2 {
+  font-size: 35px;
+}
+#second-section h3 {
+  font-size: 25px;
+}
+
+/* Third Section */
+#third-section {
+  margin: 5px;
+  height: 500px;
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#third-section h2 {
+  font-size: 35px;
+  color: green;
+}
+#third-section h3 {
+  font-size: 30px;
+}
+#third-section h4 {
+  font-size: 25px;
+  color: rgb(253, 4, 129);
+}
+.half-box {
+  float: left;
+  width: 37%;
+  margin-left: 100px;
+  padding: 6px;
+  box-shadow: 10px 10px 40px gray;
+  height: 330px;
+  border-left: 6px solid;
+  border-radius: 3px;
+  background-color: white;
+}
+#box1 {
+  border-image: linear-gradient(180deg, salmon, tomato);
+  border-image-slice: 1;
+}
+#box2 {
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+
+/* Elements */
+.half-width img {
+  width: 75%;
+}
+.justified-text {
+  text-align: justify;
+}
+p {
+  color: dimgray;
+  font-size: 15px;
+}
+.btn {
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: greenyellow;
+  background-color: darkblue;
+  font-size: 15px;
+}
+.btn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+  background-color: rgb(153, 255, 0);
+}
+
+/* Footer */
+footer {
+  background-color: rgb(240, 233, 233);
+  text-align: center;
+  font-size: 13px;
+  padding: 15px;
+}
